@@ -39,7 +39,7 @@ export default function Introduction() {
             build a coffee review website. The aim of the project is to make a
             website that can show to the viewer where have the best coffee in
             town. <br></br> Coding it forced me to understand how HTML and CSS
-            play together, a skill set I've carried and kept fresh in the years
+            play together, a skill set I&apos;ve carried and kept fresh in the years
             since. My side project work is just an excuse to satisfy my
             curiosity about new technologies and understand how the web is
             moving forward. <br></br>

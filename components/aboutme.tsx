@@ -17,7 +17,7 @@ export default function Aboutme() {
         id="aboutme"
         className="md:text-5xl  text-4xl pl-4 pt-8 max-w-[1400px] min-h-[400px] leading-tight font-Inter	font-bold "
       >
-        Hello, I'm <span className="text-lightOrange">Tung Phan</span>, <br />A
+        Hello, I&apos;m <span className="text-lightOrange">Tung Phan</span>, <br />A
         Software Developer based in Helsinki. Creating and designing websites
         from scratch is my passion. I enjoy crafting visually appealing and
         functional pages. Excited to keep learning and pushing boundaries in
