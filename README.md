@@ -1,10 +1,5 @@
-<<<<<<< HEAD
+
 <div align="center">
-=======
-
-![image](https://github.com/tungphan2823/portfolio_2/assets/65490843/e3b87e74-ea73-4ed0-a705-0987e4994f61)
->>>>>>> 1e0e3609d9d2ba0000835d762e7890e4decf38e0
-
 <a target="_blank" href="https://tungphan.id.vn/" className="rounded-3xl shadow-xl">
     <img alt='Website' src="./public/portfolio.png" />
 </a>
