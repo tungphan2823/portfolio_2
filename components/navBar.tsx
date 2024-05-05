@@ -52,12 +52,12 @@ export default function NavBar() {
   return (
     <>
       {" "}
-      <div className="flex top-0 sticky p-4 border-b-2 border-blueLight backdrop-blur-md z-10">
+      <div className=" flex top-0 sticky 2xl:p-4 p-2  border-b-2 border-blueLight backdrop-blur-md z-10">
         <div className="p-2">
           {" "}
           <h1
             id="logo"
-            className=" flex items-center font-Freeman text-3xl  clip-logo "
+            className=" flex items-center font-Freeman 2xl:text-3xl text-2xl clip-logo "
           >
             r/TungPhan
           </h1>
@@ -68,12 +68,15 @@ export default function NavBar() {
           <div className="text-lightOrange ">
             <SquareIcon />
           </div>
-          <h1 id="smallText"> Welcome to my home page.</h1>
+          <h1 id="smallText" className="2xl:text-base text-sm">
+            {" "}
+            Welcome to my home page.
+          </h1>
         </div>
-        <div className="flex gap-4 items-center  ">
+        <div className="flex gap-4 items-center 2xl:text-base text-xs ">
           {" "}
-          <h1 className="md:flex hidden items-center gap-2">
-            <div className="text-xs">
+          <h1 className="md:flex   hidden items-center gap-2 ">
+            <div>
               <AccessTimeIcon />
             </div>{" "}
             <div>{time}</div>
