@@ -9,10 +9,11 @@ export default function Project() {
     mm.add("(min-width: 800px)", () => {
       const tl = gsap.timeline({
         scrollTrigger: {
-          trigger: "#block3",
+          trigger: "#block4",
           start: "top 80%",
           end: "top 60%",
           scrub: 1,
+          markers:true
         },
       });
       tl.to("#block2", { x: 100, duration: 5 })
