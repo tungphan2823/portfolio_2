@@ -1,4 +1,5 @@
 
+![image](https://github.com/tungphan2823/portfolio_2/assets/65490843/e3b87e74-ea73-4ed0-a705-0987e4994f61)
 
 ## Getting Started
 
