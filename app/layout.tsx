@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio Tung Phan | Creative Developer",
-  description: "Tung Phan is a Software Engineer based on Finland",
+  description: "Tung Phan is a Software Engineer based in Finland",
 };
 
 export default function RootLayout({
