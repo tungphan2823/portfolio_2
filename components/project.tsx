@@ -9,7 +9,7 @@ export default function Project() {
     mm.add("(min-width: 800px)", () => {
       const tl = gsap.timeline({
         scrollTrigger: {
-          trigger: "#block5",
+          trigger: "#block3",
           start: "top 80%",
           end: "top 60%",
           scrub: 1,
