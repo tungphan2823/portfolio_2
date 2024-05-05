@@ -13,7 +13,7 @@ export default function Project() {
           start: "top 80%",
           end: "top 60%",
           scrub: 1,
-          markers:true
+          
         },
       });
       tl.to("#block2", { x: 100, duration: 5 })
