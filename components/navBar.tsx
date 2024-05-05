@@ -75,7 +75,7 @@ export default function NavBar() {
         </div>
         <div className="flex gap-4 items-center 2xl:text-base text-xs ">
           {" "}
-          <h1 className="md:flex   hidden items-center gap-2 ">
+          <h1 className="md:flex hidden items-center gap-2 ">
             <div>
               <AccessTimeIcon />
             </div>{" "}

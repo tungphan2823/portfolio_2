@@ -31,8 +31,8 @@ export default function Introduction() {
       <div className="font-semibold">
         A LITTLE ABOUT ME AND HOW MY CODING JOURNAL START
       </div>
-      <div className="flex  p-8   text-3xl ">
-        <div className="max-w-[1000px]">
+      <div className="flex  p-8   2xl:text-3xl text-2xl ">
+        <div className="2xl:max-w-[1000px] max-w-[800px]">
           <div className="font-VT min-h-[800px] ">
             Before I stepped into the world of web developing, I was a computer
             science high school student. Me and two more friends of my, we start
@@ -52,7 +52,7 @@ export default function Introduction() {
 
           <div
             id="introduce"
-            className="font-Freeman text-blueLight p-6 text-4xl backdrop-blur-xl  border-2 border-blueLight rounded-xl"
+            className="font-Freeman text-blueLight p-6 2xl:text-4xl text-2xl backdrop-blur-xl  border-2 border-blueLight rounded-xl"
           >
             <div className="pb-4">
               <label className="text-lg">NAME</label>

@@ -29,7 +29,7 @@ export default function ProfileImg() {
     <div className="flex  p-4	">
       <div id="profileImg">
         <Image
-          className=" rounded-2xl md:max-w-xl	max-w-lg	  "
+          className=" rounded-2xl 2xl:max-w-xl	max-w-lg	  "
           src={profile}
           alt="Profile Image"
         />

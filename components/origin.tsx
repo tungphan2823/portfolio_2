@@ -19,13 +19,13 @@ export default function Origin() {
   });
   return (
     <div className="flex items-center ">
-      <div className="p-20  font-Inter font-bold text-4xl flex flex-1 justify-end">
+      <div className="2xl:p-20 pr-16 font-Inter font-bold 2xl:text-4xl text-3xl flex flex-1 justify-end">
         <div>
           <h1 id="hanoi" className="clip-logo">
             Origin From HaNoi, VietNam
           </h1>
           <h1 id="helsinki" className="clip-logo">
-            Based On Helsinki, Finland
+            Based In Helsinki, Finland
           </h1>
         </div>
       </div>
