@@ -45,7 +45,7 @@ export default function NavBar() {
     gsap.to(".char", {
       y: 0,
       stagger: 0.05,
-      delay: 1,
+      delay: 1.5,
       duration: 0.8,
     });
   });

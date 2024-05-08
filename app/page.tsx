@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <Preloader />
       <NavBar />
-      <div className="md:h-screen h-full ">
+      <div className=" h-full ">
         <Aboutme />
         <Origin />
 

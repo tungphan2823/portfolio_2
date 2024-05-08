@@ -24,6 +24,7 @@ export default function Introduction() {
         scrub: 10,
       },
     });
+    
   });
 
   return (
@@ -94,7 +95,7 @@ export default function Introduction() {
           </div>
         </div>
 
-        <div id="image" className="  md:flex hidden flex-1 justify-end ">
+        <div id="image" className="  lg:flex  hidden flex-1 justify-end ">
           <ProfileImg />
         </div>
       </div>
