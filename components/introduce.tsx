@@ -87,10 +87,10 @@ export default function Introduction() {
             </div>
             <div className="pb-2">
               <label className="text-lg">SOCIALS</label>
-              <h1 className="text-greenDeep">
+              <div className="text-greenDeep	">
                 <a href="https://www.linkedin.com/in/tungphan2823/">LinkedIn</a>
                 , <a href=" https://github.com/tungphan2823">Github</a>
-              </h1>
+              </div>
             </div>
           </div>
         </div>
