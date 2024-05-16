@@ -37,7 +37,7 @@ export default function Project() {
         <div className="text-sm lg:text-xl">
           {" "}
           <p>E-commerce Website </p>
-          <p>TypeScript, React JS, Tailwind CSS, SQLite</p>
+          <p>TypeScript, React JS, NEXT JS, Tailwind CSS, SQLite</p>
         </div>
       </div>
       <div id="block2" className="p-8 max-w-2xl">
