@@ -44,11 +44,11 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="justify-end flex flex-1 p-16">
+        <div className="justify-end lg:flex flex-1 p-16">
           <div>
             <h1 className="md:text-4xl text-3xl"> © Tung Phan 2024</h1>
-            <h1 className="text-right">SOFTWARE DEVELOPER</h1>
-            <h1 className="text-right">tungphann.work@gmail.com</h1>
+            <h1 className="text-left lg:text-right">SOFTWARE DEVELOPER</h1>
+            <h1 className="text-left lg:text-right">tungphann.work@gmail.com</h1>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ export default function Introduction() {
         end: "bottom 95%",
         pin: imageElement,
         pinSpacing: false,
-        markers: true,
+        // markers: true,
         scrub: 4,
       },
     });
