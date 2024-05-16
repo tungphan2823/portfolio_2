@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <Preloader />
       <NavBar />
-      <div className=" h-full ">
+      <div className=" h-full lg:h-[100vh] ">
         <Aboutme />
         <Origin />
 

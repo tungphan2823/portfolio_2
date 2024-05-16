@@ -26,14 +26,12 @@ export default function ProfileImg() {
   //   }),
   // ]);
   return (
-    <div className="flex  p-4	">
-      <div id="profileImg">
-        <Image
-          className=" rounded-2xl 2xl:max-w-xl	max-w-lg	  "
-          src={profile}
-          alt="Profile Image"
-        />
-      </div>
+    <div className="  ">
+      <Image
+        className=" rounded-2xl 2xl:max-w-xl xl:max-w-md	max-w-lg	  "
+        src={profile}
+        alt="Profile Image"
+      />
     </div>
   );
 }
