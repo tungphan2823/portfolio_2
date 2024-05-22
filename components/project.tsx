@@ -18,7 +18,8 @@ export default function Project() {
       tl.to("#block2", { x: 100, duration: 5 })
         .to("#block3", { x: 200, duration: 5 })
         .to("#block4", { x: 300, duration: 5 })
-        .to("#block5", { x: 300, duration: 5 });
+        .to("#block5", { x: 300, duration: 5 })
+        .to("#block6", { x: 350, duration: 5 });
     });
   });
   return (
@@ -30,7 +31,7 @@ export default function Project() {
             className="text-greenDeep"
             href="https://github.com/tungphan2823/good-keyboards"
           >
-            GoodSwitch* 
+            GoodSwitch*
           </a>{" "}
           ○ 2024
         </h1>
@@ -41,6 +42,18 @@ export default function Project() {
         </div>
       </div>
       <div id="block2" className="p-8 max-w-2xl">
+        <h1 className="font-Freeman font-bold">
+          <a
+            className="text-greenDeep"
+            href="https://github.com/tungphan2823/Twitter_Java"
+          >
+            Twitter Clone
+          </a>{" "}
+          ○ 2024
+        </h1>
+        <p className="text-sm lg:text-xl">React JS, Java, PostgreSQL ○ VAMK </p>
+      </div>
+      <div id="block3" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -56,7 +69,7 @@ export default function Project() {
           <p>TypeScript, React JS, Node JS, PostgreSQL ○ VAMK - Wartsila </p>
         </div>
       </div>
-      <div id="block3" className="p-8 max-w-2xl">
+      <div id="block4" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -71,7 +84,7 @@ export default function Project() {
           JavaScript, React JS, PostgreSQL ○ VAMK{" "}
         </p>
       </div>
-      <div id="block4" className="p-8 max-w-2xl">
+      <div id="block5" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -84,7 +97,7 @@ export default function Project() {
         <p className="text-sm lg:text-xl">Java ○ VAMK </p>
       </div>
 
-      <div id="block5" className="p-8 max-w-2xl">
+      <div id="block6" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -96,6 +109,7 @@ export default function Project() {
         </h1>
         <p className="text-sm lg:text-xl">HTML, CSS, JavaScript ○ VAMK </p>
       </div>
+      
     </div>
   );
 }
