@@ -9,6 +9,7 @@ import profile from "@/public/profile.jpeg";
 import AutoScrolling from "./autoScroll";
 import Image from "next/image";
 import { useRef } from "react";
+
 export default function Introduction() {
   const textRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
@@ -78,10 +79,14 @@ export default function Introduction() {
             <h1>Helsinki, Finland</h1>
           </div>
           <div className="pb-2">
-            <label className="text-lg">SKILLS</label>
-            <h1>ReactJS, JavaScript, TypeScript, Next.js, Tailwind CSS, </h1>
-            <h1>Spring Boot, ...</h1>
-            <h1>Figma, Git, Postman </h1>
+            <label className="text-lg ">SKILLS</label>
+            <h1 className="text-2xl">
+              ReactJS, JavaScript, TypeScript, Next.js, Tailwind CSS, NodeJS,{" "}
+            </h1>
+            <h1 className="text-2xl">
+              Spring Boot ,ExpressJS, GraphQL, MongoDB
+            </h1>
+            <h1 className="text-2xl">Figma, Git, Postman, Prompt-Engineering, AWS </h1>
           </div>
           <div className="pb-2">
             <label className="text-lg">LANGUAGES</label>
