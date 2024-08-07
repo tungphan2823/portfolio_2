@@ -24,6 +24,13 @@ export default function Project() {
   });
   return (
     <div id="block0" className=" text-xl lg:text-2xl xl:text-3xl p-16">
+      <h1>EXPERIENCE</h1>
+      <div className="  font-Freeman font-bold p-8">
+        <a className="text-greenDeep"> KyKy Today </a>○ June 2024 - Present
+        <div className=" text-xl p-2">Full-Time Software Developer Intern</div>
+        
+      </div>
+
       <h1>PROJECTS</h1>
       <div id="block1" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
@@ -109,7 +116,6 @@ export default function Project() {
         </h1>
         <p className="text-sm lg:text-xl">HTML, CSS, JavaScript ○ VAMK </p>
       </div>
-      
     </div>
   );
 }
