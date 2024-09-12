@@ -28,7 +28,7 @@ export default function ProfileImg() {
   return (
     <div className="  ">
       <Image
-        className=" rounded-2xl 2xl:max-w-xl xl:max-w-md	max-w-lg	  "
+        className="rounded-2xl 2xl:max-w-xl xl:max-w-md md:max-w-sm max-w-lg 3xl:max-w-3xl "
         src={profile}
         alt="Profile Image"
       />

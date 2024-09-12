@@ -36,8 +36,8 @@ export default function Introduction() {
   });
 
   return (
-    <div className="flex flex-1 p-8   2xl:text-3xl text-2xl ">
-      <div className="2xl:max-w-[1000px] max-w-[800px]" ref={textRef}>
+    <div className="flex flex-1 p-8  2xl:text-3xl 3xl:text-4xl  text-2xl ">
+      <div className="2xl:max-w-[1000px] 3xl:max-w-[1400px] max-w-[800px]" ref={textRef}>
         <div className="font-semibold p-4">
           A LITTLE ABOUT ME AND HOW MY CODING JOURNAL START
         </div>
@@ -102,7 +102,7 @@ export default function Introduction() {
         </div>
       </div>
 
-      <div ref={imageRef} className="  lg:flex hidden lg:flex-1 justify-end ">
+      <div ref={imageRef} className="  lg:flex hidden lg:flex-1 justify-end  ">
         <ProfileImg />
       </div>
     </div>

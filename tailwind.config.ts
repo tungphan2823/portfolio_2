@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px', 
+        "3xl": "1920px", // Custom breakpoint for very large screens
+        "4xl": "2560px",
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -24,9 +30,9 @@ const config: Config = {
         lightOrange: "#FF6714",
         orangeGradient: "#de270b",
         greenDeep: "#17A540",
-        blackGray:"#0E100F",
-        foggy:"#566162",
-        watermelon:"#05AF94"
+        blackGray: "#0E100F",
+        foggy: "#566162",
+        watermelon: "#05AF94",
       },
       animation: {
         "spin-slow": "spin 3s linear infinite",
