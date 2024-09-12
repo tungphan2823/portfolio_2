@@ -15,7 +15,7 @@ export default function Aboutme() {
     <div className="p-6 ">
       <h1
         id="aboutme"
-        className="text-2xl lg:text-3xl 2xl:text-5xl 2xl:max-w-[1400px] max-w-[1100px] pl-4 pt-8  min-h-[400px] leading-tight font-Inter	font-bold clip-logo  "
+        className="text-2xl lg:text-3xl 2xl:text-5xl 3xl:text-6xl 2xl:max-w-[1400px] max-w-[1100px] pl-4 pt-8  min-h-[400px] leading-tight font-Inter	font-bold clip-logo  "
       >
         Hello, I&apos;m <span className="text-lightOrange">Tung Phan</span>,{" "}
         <br />A Software Developer based in Helsinki. Creating and designing

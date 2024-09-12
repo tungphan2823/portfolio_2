@@ -21,7 +21,7 @@ export default function AutoScrolling({ scrollType }: ScrollingProps) {
       {scrollType === "landing" && (
         <>
           <Marquee autoFill pauseOnClick>
-            <div className=" m-1 rounded-xl flex space-x-5 p-16  font-bold text-xs cursor-pointer items-center gap-1">
+            <div className=" m-1 rounded-xl flex space-x-5   font-bold  cursor-pointer items-center gap-1  2xl:text-md 3xl:text-xl md:text-xs md:p-4 xl:p-16 " >
               <div className=" animate-spin-slow	">
                 <AcUnitIcon />
               </div>
@@ -62,12 +62,10 @@ export default function AutoScrolling({ scrollType }: ScrollingProps) {
       )}
       {scrollType === "work" && (
         <>
-          <div >
+          <div>
             <Marquee autoFill pauseOnClick direction="right">
               <div className=" m-1 rounded-xl flex space-x-5  p-8 font-bold text-xs cursor-pointer items-center gap-3 ">
-                <div>
-                  
-                </div>
+                <div></div>
                 IN DEVELOPMENT
               </div>
             </Marquee>
