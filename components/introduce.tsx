@@ -37,7 +37,7 @@ export default function Introduction() {
 
   return (
     <div className="flex flex-1 p-8  2xl:text-3xl 3xl:text-4xl  text-2xl ">
-      <div className="2xl:max-w-[1000px] 3xl:max-w-[1400px] max-w-[800px]" ref={textRef}>
+      <div className="2xl:max-w-[1000px] 3xl:max-w-[1200px] max-w-[800px]" ref={textRef}>
         <div className="font-semibold p-4">
           A LITTLE ABOUT ME AND HOW MY CODING JOURNAL START
         </div>
