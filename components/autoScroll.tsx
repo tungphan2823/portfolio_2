@@ -7,6 +7,7 @@ import Image from "next/image";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import javascript from "../public/javascript.png";
 import ts from "../public/typesscript.png";
+import py from "../public/python.png";
 import reactImg from "../public/react.png";
 import tailwind from "../public/images.png";
 import docker from "../public/docker.png";
@@ -38,6 +39,9 @@ export default function AutoScrolling({ scrollType }: ScrollingProps) {
             </div>
             <div className=" m-1 rounded-xl flex space-x-5 p-16  font-bold text-xs cursor-pointer items-center gap-1 max-w-48">
               <Image src={ts} alt="ts"></Image>
+            </div>
+            <div className=" m-1 rounded-xl flex space-x-5 p-16  font-bold text-xs cursor-pointer items-center gap-1 max-w-48">
+              <Image src={py} alt="py"></Image>
             </div>
             <div className=" m-1 rounded-xl flex space-x-5 p-16  font-bold text-xs cursor-pointer items-center gap-1 max-w-48">
               <Image src={reactImg} alt="rs"></Image>

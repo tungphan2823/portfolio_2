@@ -37,7 +37,10 @@ export default function Introduction() {
 
   return (
     <div className="flex flex-1 p-8  2xl:text-3xl 3xl:text-4xl  text-2xl ">
-      <div className="2xl:max-w-[1000px] 3xl:max-w-[1200px] max-w-[800px]" ref={textRef}>
+      <div
+        className="2xl:max-w-[1000px] 3xl:max-w-[1200px] max-w-[800px]"
+        ref={textRef}
+      >
         <div className="font-semibold p-4">
           A LITTLE ABOUT ME AND HOW MY CODING JOURNAL START
         </div>
@@ -63,8 +66,8 @@ export default function Introduction() {
             <h1>Tung Phan</h1>
           </div>
           <div className="pb-4">
-            <label className="text-lg">AGE</label>
-            <h1>{myAge} years old</h1>
+            <label className="text-lg ">AGE</label>
+            <h1><span className="text-greenDeep	">{myAge}</span> years old</h1>
           </div>
           <div className="pb-4">
             <label className="text-lg">EDUCATIONS</label>
@@ -78,15 +81,27 @@ export default function Introduction() {
             <label className="text-lg">LOCATION</label>
             <h1>Helsinki, Finland</h1>
           </div>
-          <div className="pb-2">
+          <div className="pb-2 tracking-wide">
             <label className="text-lg ">SKILLS</label>
             <h1 className="text-2xl">
-              ReactJS, JavaScript, TypeScript, Next.js, Tailwind CSS, NodeJS,{" "}
+              <span className="text-orange-500">Language </span>JavaScript,
+              TypeScript, Python, Java{" "}
             </h1>
             <h1 className="text-2xl">
-              Spring Boot ,ExpressJS, GraphQL, MongoDB
+              <span className="text-orange-500">Front-End </span> React.JS,
+              NEXT.JS, Tailwind CSS
             </h1>
-            <h1 className="text-2xl">Figma, Git, Postman, Prompt-Engineering, AWS </h1>
+            <h1 className="text-2xl ">
+              {" "}
+              <span className="text-orange-500 ">Back-End </span>Node.JS,
+              Express.JS,  Spring Boot,  GraphQL{" "}
+            </h1>
+            <h1 className="text-2xl">
+               PostgreSQL,   MongoDB,  Git,  GitHub, CI/CD, Postman, JEST
+            </h1>
+            <h1 className="text-2xl">
+             Cloud AWS, AI Prompt Engineering, ...
+            </h1>
           </div>
           <div className="pb-2">
             <label className="text-lg">LANGUAGES</label>
