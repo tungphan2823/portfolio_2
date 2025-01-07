@@ -31,21 +31,7 @@ export default function Project() {
       </div>
 
       <h1>PROJECTS</h1>
-      <div id="block1" className="p-8 max-w-2xl">
-        <h1 className="font-Freeman font-bold">
-          <a
-            className="text-greenDeep"
-            href="https://github.com/tungphan2823/Kindergarten-Activity-Tracking-Application"
-          >
-            Kindergarten Activity Tracking Web Application | Bachelor's Thesis
-          </a>{" "}
-          ○ 2024
-        </h1>
-        <div className="text-sm lg:text-xl">
-          {" "}
-          <p>TypeScript, React JS, Tailwind CSS, NodeJS, MongoDB</p>
-        </div>
-      </div>
+     
       <div id="block1" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
