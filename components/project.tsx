@@ -31,8 +31,23 @@ export default function Project() {
       </div>
 
       <h1>PROJECTS</h1>
-     
       <div id="block1" className="p-8 max-w-2xl">
+        <h1 className="font-Freeman font-bold">
+          <a
+            className="text-greenDeep"
+            href="https://github.com/tungphan2823/Kindergarten-Activity-Tracking-Application"
+          >
+            Kindergarten Activity Tracking Web Application
+          </a>{" "}
+          ○ 2024
+        </h1>
+        <div className="text-sm lg:text-xl">
+          {" "}
+          
+          <p>TypeScript, React JS, Node JS, Tailwind CSS, Express JS, MongoDB</p>
+        </div>
+      </div>
+      <div id="block2" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -48,7 +63,7 @@ export default function Project() {
           <p>TypeScript, React JS, NEXT JS, Tailwind CSS, SQLite</p>
         </div>
       </div>
-      <div id="block2" className="p-8 max-w-2xl">
+      <div id="block3" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -60,7 +75,7 @@ export default function Project() {
         </h1>
         <p className="text-sm lg:text-xl">React JS, Java, PostgreSQL ○ VAMK </p>
       </div>
-      <div id="block3" className="p-8 max-w-2xl">
+      <div id="block4" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -76,7 +91,7 @@ export default function Project() {
           <p>TypeScript, React JS, Node JS, PostgreSQL ○ VAMK - Wartsila </p>
         </div>
       </div>
-      <div id="block4" className="p-8 max-w-2xl">
+      <div id="block5" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -91,7 +106,7 @@ export default function Project() {
           JavaScript, React JS, PostgreSQL ○ VAMK{" "}
         </p>
       </div>
-      <div id="block5" className="p-8 max-w-2xl">
+      <div id="block6" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -104,7 +119,7 @@ export default function Project() {
         <p className="text-sm lg:text-xl">Java ○ VAMK </p>
       </div>
 
-      <div id="block6" className="p-8 max-w-2xl">
+      {/* <div id="block7" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
             className="text-greenDeep"
@@ -115,7 +130,7 @@ export default function Project() {
           ○ 2021
         </h1>
         <p className="text-sm lg:text-xl">HTML, CSS, JavaScript ○ VAMK </p>
-      </div>
+      </div> */}
     </div>
   );
 }
