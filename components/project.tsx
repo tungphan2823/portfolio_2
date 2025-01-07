@@ -44,7 +44,7 @@ export default function Project() {
         </h1>
         <div className="text-sm lg:text-xl">
           {" "}
-          <p>E-commerce Website ○ Keyboards for coders</p>
+          
           <p>TypeScript, React JS, Tailwind CSS, NodeJS, MongoDB</p>
         </div>
       </div>
@@ -60,7 +60,7 @@ export default function Project() {
         </h1>
         <div className="text-sm lg:text-xl">
           {" "}
-          
+          <p>E-commerce Website ○ Keyboards for coders</p>
           <p>TypeScript, React JS, NEXT JS, Tailwind CSS, SQLite</p>
         </div>
       </div>
