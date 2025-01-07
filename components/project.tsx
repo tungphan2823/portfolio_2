@@ -26,12 +26,28 @@ export default function Project() {
     <div id="block0" className=" text-xl lg:text-2xl xl:text-3xl p-16">
       <h1>EXPERIENCE</h1>
       <div className="  font-Freeman font-bold p-8">
-        <a className="text-greenDeep"> KyKy Today </a>○ June 2024 - Present
+        <a className="text-greenDeep"> KyKy Today </a>○ June 2024 - Dec 2024
         <div className=" text-xl p-2">Full-Time Software Developer Intern</div>
         
       </div>
 
       <h1>PROJECTS</h1>
+      <div id="block1" className="p-8 max-w-2xl">
+        <h1 className="font-Freeman font-bold">
+          <a
+            className="text-greenDeep"
+            href="https://github.com/tungphan2823/Kindergarten-Activity-Tracking-Application"
+          >
+            Kindergarten Activity Tracking Web Application | Bacherlor's Thesis
+          </a>{" "}
+          ○ 2024
+        </h1>
+        <div className="text-sm lg:text-xl">
+          {" "}
+          <p>E-commerce Website ○ Keyboards for coders</p>
+          <p>TypeScript, React JS, Tailwind CSS, NodeJS, MongoDB</p>
+        </div>
+      </div>
       <div id="block1" className="p-8 max-w-2xl">
         <h1 className="font-Freeman font-bold">
           <a
@@ -44,7 +60,7 @@ export default function Project() {
         </h1>
         <div className="text-sm lg:text-xl">
           {" "}
-          <p>E-commerce Website ○ Keyboards for coders</p>
+          
           <p>TypeScript, React JS, NEXT JS, Tailwind CSS, SQLite</p>
         </div>
       </div>
