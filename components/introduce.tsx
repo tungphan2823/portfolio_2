@@ -71,9 +71,9 @@ export default function Introduction() {
           </div>
           <div className="pb-4">
             <label className="text-lg">EDUCATIONS</label>
-            <h1>Vaasa University of Applied Sciences (Graduated Dec 2024)</h1>
+            <h1>Vaasa University of Applied Sciences</h1>
             <h3 className="text-lg"> 
-              Information Technology, Bachelor of Engineering
+              Information Technology, Bachelor of Engineering (Graduated Dec 2024)
             </h3>
           </div>
           <div className="pb-4">
