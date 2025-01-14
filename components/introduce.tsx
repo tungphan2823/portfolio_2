@@ -85,7 +85,7 @@ export default function Introduction() {
             <label className="text-lg ">SKILLS</label>
             <h1 className="text-2xl">
               <span className="text-orange-500">Language </span>JavaScript,
-              TypeScript, Python, Java{" "}
+              TypeScript, Go, Python, Java{" "}
             </h1>
             <h1 className="text-2xl">
               <span className="text-orange-500">Front-End </span> React.JS,
