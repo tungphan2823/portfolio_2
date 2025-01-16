@@ -26,7 +26,7 @@ export default function AutoScrolling({ scrollType }: ScrollingProps) {
               <div className=" animate-spin-slow	">
                 <AcUnitIcon />
               </div>
-              /SOFTWARE DEVELOPER /WEB DEVELOPER /STUDENT
+              /SOFTWARE ENGINEER /SOFTWARE DEVELOPER /STUDENT
             </div>
           </Marquee>
         </>
