@@ -26,7 +26,7 @@ export default function Project() {
     <div id="block0" className=" text-xl lg:text-2xl xl:text-3xl p-16">
       <h1>EXPERIENCE</h1>
       <div className="  font-Freeman font-bold p-8">
-        <a className="text-greenDeep"> KyKy Today </a>○ June 2024 - Dec 2024
+        <a className="text-greenDeep"> KyKy Today Oy (Katch Oy) </a>○ June 2024 - Dec 2024
         <div className=" text-xl p-2">Full-Time Software Developer Intern</div>
       </div>
 
