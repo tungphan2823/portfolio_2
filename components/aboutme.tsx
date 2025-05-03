@@ -18,7 +18,7 @@ export default function Aboutme() {
         className="text-2xl lg:text-3xl 2xl:text-5xl 3xl:text-6xl 2xl:max-w-[1400px] max-w-[1100px] pl-4 pt-8  min-h-[400px] leading-tight font-Inter	font-bold clip-logo  "
       >
         Hello, I&apos;m <span className="text-lightOrange">Tung Phan</span>,{" "}
-        <br />A Software Engineer based in Helsinki, transforming ideas into digital experiences. I breathe life into the web, crafting elegant websites from concept to deployment with meticulous attention to detail. My code blends functionality with visual storytelling, creating intuitive user journeys that captivate and convert. When I&apos; m not pushing pixels or debugging code, I&apos; m exploring emerging technologies to stay at the cutting edge of this dynamic field.<span className="text-lightOrange">.</span>
+        <br />A Software Engineer based in Helsinki, transforming ideas into digital experiences. I breathe life into the web, crafting elegant websites from concept to deployment with meticulous attention to detail. When I&apos; m not pushing pixels or debugging code, I&apos; m exploring emerging technologies to stay at the cutting edge of this dynamic field.<span className="text-lightOrange">.</span>
       </h1>
     </div>
   );
