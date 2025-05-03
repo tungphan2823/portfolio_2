@@ -26,7 +26,7 @@ export default function Project() {
     <div id="block0" className=" text-xl lg:text-2xl xl:text-3xl p-16">
       <h1>EXPERIENCE</h1>
       <div className="  font-Freeman font-bold p-8">
-        <a className="text-greenDeep"> Zoner Oy </a>○ April 2025 - Present
+        <a className="text-blue-700"> Zoner Oy </a>○ April 2025 - Present
         <div className=" text-xl p-2">Junior Software Developer</div>
       </div>
       <div className="  font-Freeman font-bold p-8">
