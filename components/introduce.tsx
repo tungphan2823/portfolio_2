@@ -45,17 +45,15 @@ export default function Introduction() {
           A LITTLE ABOUT ME AND HOW MY CODING JOURNAL START
         </div>
         <div className="font-VT min-h-[800px] ">
-          Before I stepped into the world of web developing, I was a computer
-          science high school student. Me and two more friends of my, we start
-          build a coffee review website. The aim of the project is to make a
-          website that can show to the viewer where have the best coffee in
-          town. <br></br> Coding it forced me to understand how HTML and CSS
-          play together, a skill set I&apos;ve carried and kept fresh in the
-          years since. My side project work is just an excuse to satisfy my
-          curiosity about new technologies and understand how the web is moving
-          forward. <br></br>
-          Outside work, I enjoy going to the gym, listening to and playing
-          music, and playing pool with my friends.
+         Before I stepped into the world of web development, I was a computer
+          science high school student. My two friends and I started building a
+          coffee review website. The aim of the project is to make a website
+          that can show viewers where to find the best coffee in town. <br></br>{" "}
+           Coding it forced me to understand how HTML and CSS play together, a
+          skill set I&apos;ve carried and kept fresh in the years since. My side
+          project work is just an excuse to satisfy my curiosity about new
+          technologies and understand how the web is moving forward. <br></br>
+          Outside work, I enjoy going to the gym, music and playing billiards with my friends.
           <div>
             <CircleText />
           </div>
@@ -84,16 +82,16 @@ export default function Introduction() {
           <div className="pb-2 tracking-wide">
             <label className="text-lg ">SKILLS</label>
             <h1 className="text-2xl">
-              <span className="text-orange-500">Language </span>JavaScript,
+             JavaScript,
               TypeScript, Go, Python, Java{" "}
             </h1>
             <h1 className="text-2xl">
-              <span className="text-orange-500">Front-End </span> React.JS,
+             React.JS,
               NEXT.JS, Tailwind CSS
             </h1>
             <h1 className="text-2xl ">
               {" "}
-              <span className="text-orange-500 ">Back-End </span>Node.JS,
+              Node.JS,
               Express.JS,  Spring Boot,  GraphQL{" "}
             </h1>
             <h1 className="text-2xl">
